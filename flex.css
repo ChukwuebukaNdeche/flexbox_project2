@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(219, 219, 219);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav_links {
+    display: flex;
+    gap: 35px;
+    margin-right: 10%;
+}
+.nav_links>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover {
+   color: rgb(79, 79, 221);
+}
+
+
+.company_name{
+    margin-left: 10%;
+}
+.company_name>h2 {
+    font-weight: 500;
+}
+.key_features {
+    margin-top: 150px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+h4 {
+    margin-top: 4%;
+}
+.flex_container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.flex_container1>div {
+    margin-right: 2%;
+    padding: 0.5%;
+    width: 30%;
+}
+
+.footer {
+    background: whitesmoke;
+    margin: 0.5%;
+    border-radius: 2px;
+}
+.flex_container2 {
+    display: flex;
+    justify-content: space-between;
+}
+.flex_container2>div {
+    margin: 5% 5% 0 5%;
+}
+ul {
+    list-style: none;
+}
+div>h3 {
+    margin-top: 12%;
+    margin-bottom: 12%;
+    color: rgb(17, 17, 165);
+}
+input,textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 7%;
+    background: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    border-style: 0;
+    box-shadow: 3px 3px 10px 1px rgb(187, 184, 184);
+}
+.link_and_rights {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 27% 2% 5%;
+}
+li>a {
+    text-decoration: none;
+    color: black;
+}
+span {
+    color: rgb(14, 114, 245);
+}
+.fa,.far {
+    color: blue;
+    font-size: 25px;
+}
+a+p {
+    font-size: 12px;
+}
+.read_more {
+    padding: 7px;
+    background-color: rgb(0, 116, 217);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-bottom: 2%;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 13px;
+}
+  .arrow {
+    display: inline;
+    border: 0;
+    width: 3px;
+    color: blue;
+    background: white;
+    border-radius: 50%;
+  }
